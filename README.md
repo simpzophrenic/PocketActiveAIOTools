@@ -10,7 +10,7 @@ Just run the file as Administrator, and wait for it then enjoy.
 
 # Is this safe or a virus?
 
-This is 100% safe, not a virus or Discord Nuke Tool.
+This is 100% safe, not a virus or Discord Nuke Tool, file scanned by ESET and Kaspersky.
 
 # Screenshot
 
