@@ -677,9 +677,9 @@ for /f "tokens=2 delims==" %%x in ('"wmic path %spp% where ID='%1' get Name /VAL
 wmic path %spp% where ID='%1' call Activate >nul 2>&1
 set ERRORCODE=%ERRORLEVEL%
 for /f "tokens=2 delims==" %%x in ('"wmic path %spp% where ID='%1' get GracePeriodRemaining /VALUE"') do (set gpr=%%x&set /a gpr2=%%x/1440)
-if %gpr% equ 43200 if %office% equ 0 if not defined win7 (echo Activation for Windows Core/ProfessionalWMC is success&echo Time left until expire: 30 ngay ^(%gpr% minutes^)&exit /b)
-if %gpr% equ 64800 (echo Activation for Windows Core/ProfessionalWMC is success&echo Time left until expire: 45 ngay ^(%gpr% minutes^)&exit /b)
-if %gpr% gtr 259200 (echo Activation for Windows EnterpriseG/EnterpriseGN is success &echo Time left until expire: %gpr2% ngay ^(%gpr% minutes^)&exit /b)
+if %gpr% equ 43200 if %office% equ 0 if not defined win7 (echo Activation for Windows Core/ProfessionalWMC is success&echo Time left until expire: 30 day ^(%gpr% minutes^)&exit /b)
+if %gpr% equ 64800 (echo Activation for Windows Core/ProfessionalWMC is success&echo Time left until expire: 45 day ^(%gpr% minutes^)&exit /b)
+if %gpr% gtr 259200 (echo Activation for Windows EnterpriseG/EnterpriseGN is success &echo Time left until expire: %gpr2% day ^(%gpr% minutes^)&exit /b)
 if %gpr% equ 259200 (
 echo Product Activation Successful
 ) else (
@@ -687,7 +687,7 @@ call cmd /c exit /b %ERRORCODE%
 echo Activation Unsuccessful: 0x%=ExitCode%
 set activation_ok=0
 )
-echo Time left until expire: %gpr2% ngay ^(%gpr% minutes^)
+echo Time left until expire: %gpr2% day ^(%gpr% minutes^)
 exit /b
 
 :UnsupportedVersion
