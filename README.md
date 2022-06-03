@@ -2,7 +2,7 @@
 
 Lightweight Client of Active AIO Tools by Savio with English language.
 
-[Click here to get to download page](https://github.com/Toasty9004Dev/PocketActiveAIOTools/releases)
+[Click here to download](https://github.com/Toasty9004Dev/PocketActiveAIOTools/releases/download/1.0-light/PocketActiveAIOTools.cmd)
 
 # How to use
 
