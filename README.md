@@ -4,6 +4,12 @@ Lightweight Client of Active AIO Tools by Savio with English language.
 
 NOTE: if windows 11 have new kernel number, **maybe** i will not update this since im back to school, but if i can, just wait for a moment :D
 
+# COPYRIGHT
+
+**All rights for the original creator (Savio & HQCNTH)
+
+*Their Facebook group link: https://facebook.com/groups/HoiQuanCongNgheTinHoc/about/
+
 [Click here to download](https://github.com/Toasty9004Dev/PocketActiveAIOTools/releases/download/1.0-light/PocketActiveAIOTools.cmd)
 
 # How to use
