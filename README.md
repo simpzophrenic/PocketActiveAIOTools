@@ -14,7 +14,7 @@ NOTE: if windows 11 have new kernel number, **maybe** i will not update this sin
 
 *HQCNTH: https://facebook.com/groups/HoiQuanCongNgheTinHoc/about/*
 
-[Click here to download](https://github.com/Toasty9004Dev/PocketActiveAIOTools/releases/download/1.0-light/PocketActiveAIOTools.cmd)
+[Click here to download](https://github.com/itshayvune/PocketActiveAIOTools/releases/download/0.3/PocketActiveAIOTools.cmd)
 
 # How to use
 
