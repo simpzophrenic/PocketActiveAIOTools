@@ -300,7 +300,7 @@ echo Product is Activated.
 exit /b
 )
 if "%ls%" equ "1" (
-echo Kiem tra: %3
+echo Checking: %3
 echo Product is Activated.
 exit /b
 )
