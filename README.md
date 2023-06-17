@@ -1,8 +1,8 @@
-# Pocket Active AIO Tools (modded by Toasty9004Dev)
+# Pocket Active AIO Tools (modded by itshayvune)
 
 Lightweight Client of Active AIO Tools by Savio with English language.
 
-NOTE: if windows 11 have new kernel number, **maybe** i will not update this since im back to school, but if i can, just wait for a moment :D
+NOTE: if windows 11 have new kernel number, **maybe** i will not update this thing, but if i can, just wait for a moment :D
 
 ~~**UPDATE: i abandoned this project since September or whatever, you can still download it, but the translation sucks**~~
 
